@@ -33,7 +33,7 @@ class UITestUITests: XCTestCase {
 
     func testChangeColor_ButtonPressed_ShouldCreateAlabel(){
         app.buttons["Get colors"].tap()
-        XCTAssertTrue(app.staticTexts["Welcome to school"].exists)
+        XCTAssertTrue(app.staticTexts["Label text"].exists)
     }
     
     

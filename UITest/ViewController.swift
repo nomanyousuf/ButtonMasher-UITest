@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     @IBAction func myButton(_ sender: Any){
         UIViewMain.backgroundColor = getRandomColor()
         myLabel = UILabel(frame: CGRect(x: UIScreen.main.bounds.midX - 100, y: 200, width: 200, height: 30))
-        myLabel.text = "Welcome to school"
+        myLabel.text = "Label text"
         myLabel.textColor = .green
         view.addSubview(myLabel)
     }
